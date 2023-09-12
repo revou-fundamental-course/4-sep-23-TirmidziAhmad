@@ -1,0 +1,147 @@
+*{
+    font-family: Poppins;
+    text-align: center;
+}
+
+.Title{
+    background-color: #abdd8b;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 5px 5px #222222;
+    padding: 10px 100px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.button {
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.wrapper{
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+.btnHitung{
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 5px 5px #222222;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 3%;
+}
+
+.btnHitung:hover{
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 2px 2px #222222;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 3%;
+}
+
+.wrapperLuas a:focus {
+    box-shadow: 3px 3px #222222;
+}
+.wrapperLuas{
+    border: 1px solid #222222;
+    box-shadow: 10px 10px #222222;
+    border-radius: 5px;
+    background: #ffbdc4;
+    margin-top: 1%;
+    padding: 1% 1%;
+}
+
+.btnSwitcher{
+    border-radius: 10px;
+}
+.btnSwitchLuas:hover{
+    box-shadow: 2px 2px #222222;
+}
+.btnSwitchKeliling:hover{
+    box-shadow: 2px 2px #222222;
+}
+
+.btnSwitchLuas{
+    background-color: #faae2b;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 5px 5px #222222;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.btnSwitchKeliling{
+    background-color: #8bd3dd;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 5px 5px #222222;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.wrapperKeliling{
+    display: none;
+    border: 1px solid #222222;
+    box-shadow: 10px 10px #222222;
+    border-radius: 5px;
+    background: #b6d3d1;
+    margin-top: 1%;
+    padding: 1% 1%;
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#2553d3;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.InputLuas input[type=text] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+
+.InputKeliling input[type=text] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+
+.InputLuas textarea:focus, input:focus{
+    outline: none;
+  }
+
+.InputKeliling textarea:focus, input:focus{
+    background-color: #f2f7f5;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+  }

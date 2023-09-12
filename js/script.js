@@ -1,0 +1,25 @@
+const LuasPersegi = () => {
+    var a = document.getElementById("InputValueLuas").value;
+    var rumus = parseInt(a) * parseInt(a);
+    document.getElementById("OutputValueLuas").innerHTML = rumus;
+}
+
+const KelilingPersegi = () => {
+    var a = document.getElementById("InputValueKeliling").value;
+    var rumus = 4 * parseInt(a);
+    document.getElementById("OutputValueKeliling").innerHTML = rumus;
+}
+
+function ShowLuas() {
+    var x = document.getElementById("WrapLuas");
+    var y = document.getElementById("WrapKeliling");
+    x.style.display = "block";
+    y.style.display = "none";
+  }
+
+function ShowKeliling() {
+    var x = document.getElementById("WrapLuas");
+    var y = document.getElementById("WrapKeliling");
+    y.style.display = "block";
+    x.style.display = "none";
+  }

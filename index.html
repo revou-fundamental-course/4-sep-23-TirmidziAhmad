@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<title>SiPaPe</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="Title">
+            <h1>SiPalingPersegi.co</h1>
+        </div>
+        <p>Makin Mudah Menghitung Luas & Keliling <br>  Persegi</p>
+        <div class="btnSwitcher">
+            <button class="btnSwitchLuas" onclick="ShowLuas()">Luas</button>
+            <button class="btnSwitchKeliling" onclick="ShowKeliling()">Keliling</button>
+        </div> <br>
+        <div class="wrapperLuas" id="WrapLuas">
+                <h1>Hitung Luas Persegi</h1>
+                <p>Masukkan panjang sisi persegi</p>
+            <div class="InputLuas">
+                <input type="text" id="InputValueLuas"> <br>
+            </div>
+            <button class="btnHitung" type="button" onclick="LuasPersegi()">
+                Hitung
+            </button>
+            <p>Luas Persegi:</p>
+            <h2 id="OutputValueLuas">0</h2>
+        </div>
+        <div class="wrapperKeliling"id="WrapKeliling">
+                <h1>Hitung Keliling Persegi</h1>
+                <p>Masukkan panjang sisi persegi</p>
+            <div class="InputKeliling">
+                <input type="text" id="InputValueKeliling"> <br>
+            </div>
+            <button class="btnHitung"type="button" onclick="KelilingPersegi()">
+                Hitung
+            </button>
+            <p>Keliling Persegi:</p>
+            <h2 id="OutputValueKeliling">0</h2>
+        </div>
+        <br>
+        <p>Made with	&#10084; by Miji</p>
+    </div>
+    <a href="https://www.linkedin.com/in/tirmidzi-ahmad-fuzna-7015a31b0/" class="float" target="_blank">
+        <i class="fa fa-linkedin my-float"></i>
+        </a>
+    <script src="js/script.js"></script>
+</body>
+</html>
