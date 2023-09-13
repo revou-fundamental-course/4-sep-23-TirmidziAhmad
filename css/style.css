@@ -5,7 +5,7 @@
 
 .Title{
     background-color: #abdd8b;
-    border: none;
+    border: 1px solid #222222;
     border-radius: 4px;
     text-decoration: none;
     display: inline-block;
@@ -28,7 +28,7 @@
 }
 .btnHitung{
     background-color: white;
-    border: none;
+    border: 1px solid #222222;
     border-radius: 4px;
     text-decoration: none;
     display: inline-block;
@@ -41,7 +41,7 @@
 
 .btnHitung:hover{
     background-color: white;
-    border: none;
+    border: 1px solid #222222;
     border-radius: 4px;
     text-decoration: none;
     display: inline-block;
@@ -76,7 +76,7 @@
 
 .btnSwitchLuas{
     background-color: #faae2b;
-    border: none;
+    border: 1px solid #222222;
     border-radius: 4px;
     text-decoration: none;
     display: inline-block;
@@ -88,7 +88,7 @@
 
 .btnSwitchKeliling{
     background-color: #8bd3dd;
-    border: none;
+    border: 1px solid #222222;
     border-radius: 4px;
     text-decoration: none;
     display: inline-block;
@@ -118,6 +118,7 @@
 	background-color:#2553d3;
 	color:#FFF;
 	border-radius:50px;
+    border: 2px solid #222222;
 	text-align:center;
   font-size:30px;
 	box-shadow: 2px 2px 3px #999;
@@ -126,13 +127,13 @@
 .InputLuas input[type=text] {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
   }
 
 .InputKeliling input[type=text] {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
   }
 
 .InputLuas textarea:focus, input:focus{
