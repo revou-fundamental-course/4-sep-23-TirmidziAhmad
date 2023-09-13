@@ -3,6 +3,9 @@ const LuasPersegi = () => {
     if ( a === ""){
       document.getElementById("OutputValueLuas").innerHTML = "Masukkan panjang persegi";
     }
+    else if(isNaN(a)){
+      document.getElementById("OutputValueLuas").innerHTML = "Hanya masukkan angka";
+    }
     else{
       var rumus = parseInt(a) * parseInt(a);
       document.getElementById("OutputValueLuas").innerHTML = rumus;
@@ -13,6 +16,9 @@ const KelilingPersegi = () => {
     var a = document.getElementById("InputValueKeliling").value;
     if ( a === ""){
       document.getElementById("OutputValueKeliling").innerHTML = "Masukkan panjang persegi";
+    }
+    else if(isNaN(a)){
+      document.getElementById("OutputValueKeliling").innerHTML = "Hanya masukkan angka";
     }
     else{
       var rumus = 4 * parseInt(a);
