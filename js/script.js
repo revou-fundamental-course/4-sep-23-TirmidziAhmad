@@ -1,13 +1,23 @@
 const LuasPersegi = () => {
     var a = document.getElementById("InputValueLuas").value;
-    var rumus = parseInt(a) * parseInt(a);
-    document.getElementById("OutputValueLuas").innerHTML = rumus;
+    if ( a === ""){
+      document.getElementById("OutputValueLuas").innerHTML = "Masukkan panjang persegi";
+    }
+    else{
+      var rumus = parseInt(a) * parseInt(a);
+      document.getElementById("OutputValueLuas").innerHTML = rumus;
+    }
 }
 
 const KelilingPersegi = () => {
     var a = document.getElementById("InputValueKeliling").value;
-    var rumus = 4 * parseInt(a);
-    document.getElementById("OutputValueKeliling").innerHTML = rumus;
+    if ( a === ""){
+      document.getElementById("OutputValueKeliling").innerHTML = "Masukkan panjang persegi";
+    }
+    else{
+      var rumus = 4 * parseInt(a);
+      document.getElementById("OutputValueKeliling").innerHTML = rumus;  
+    }
 }
 
 function ShowLuas() {
